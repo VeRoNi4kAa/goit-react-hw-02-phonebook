@@ -13,6 +13,7 @@ const schema = yup.object().shape({
   number: yup.number().required().positive().integer(),
 });
 
+
 export default class ContactForm extends Component {
   state = {
     name: "",
@@ -30,8 +31,7 @@ export default class ContactForm extends Component {
       <Formik
         initialValues={{ name: "", number: "" }}
         onSubmit={this.handleSubmit}
-        validationSchema={schema}
-      >
+        validationSchema={schema}>
         <FormContainer>
           <Form autoComplete="off">
             <div>

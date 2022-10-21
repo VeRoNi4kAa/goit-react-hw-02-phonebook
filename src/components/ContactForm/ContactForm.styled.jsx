@@ -13,6 +13,7 @@ export const SubmitButton = styled.button`
   border-radius: 5px;
   cursor: pointer;
 `;
+
 export const FormContainer = styled.div`
   display: inline-block;
   padding: 20px;

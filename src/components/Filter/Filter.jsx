@@ -10,6 +10,7 @@ export default function Filter({ filter, addFilter }) {
   );
 }
 
+
 Filter.propTypes = {
   filter: PropTypes.string.isRequired,
   addFilter: PropTypes.func.isRequired,
